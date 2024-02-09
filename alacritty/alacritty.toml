@@ -1,0 +1,55 @@
+[colors]
+draw_bold_text_with_bright_colors = true
+
+[colors.bright]
+black = "#585B70"
+blue = "#89B4FA"
+cyan = "#94E2D5"
+green = "#A6E3A1"
+magenta = "#F5C2E7"
+red = "#EE261E"
+white = "#A6ADC8"
+yellow = "#F9E2AF"
+
+[colors.cursor]
+cursor = "0xEE261E"
+text = "0xEBEBEB"
+
+[colors.normal]
+black = "#45475A"
+blue = "#89B4FA"
+cyan = "#94E2D5"
+green = "#A6E3A1"
+magenta = "#F5C2E7"
+red = "#EE261E"
+white = "#BAC2DE"
+yellow = "#F9E2AF"
+
+[colors.primary]
+background = "0x171616"
+foreground = "0xfffbf6"
+
+# [font.bold]
+# family = "Hack"
+# style = "Bold"
+#
+# [font.bold_italic]
+# family = "Hack"
+# style = "Bold Italic"
+#
+# [font.italic]
+# family = "Hack"
+# style = "Italic"
+#
+# [font.normal]
+# family = "Hack"
+# style = "Regular"
+
+[[keyboard.bindings]]
+action = "SpawnNewInstance"
+key = "Return"
+mods = "Super|Shift"
+
+[scrolling]
+history = 10000
+multiplier = 3
