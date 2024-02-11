@@ -22,11 +22,11 @@ HISTFILE="${XDG_CACHE_HOME:-$HOME/.cache}/zsh/history"
 # Aliases
 alias zrc='nvim ~/.zshrc'
 alias air='~/go/bin/air'
-alias tmx='nvim ~/.tmux.conf'
 alias neovim='cd ~/.config/nvim/ && nvim .'
 alias ls='ls --color=auto'
 alias minecraft="cd ~/Downloads && java -jar TLauncher-*"
 alias ff="fastfetch"
+alias tmux="tmux -2 -u"
 
 # Bindkey settings
 bindkey -v
@@ -55,7 +55,7 @@ PROMPT='%F{red}󰁔%f %F{cyan}${PWD/#$HOME/~}%f ${vcs_info_msg_0_}'
 
 # Exports
 export PATH=$PATH:/usr/local/go/bin
-# export TERM=alacritty
+export TERM=xterm
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
